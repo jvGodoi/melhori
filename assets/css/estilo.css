@@ -16,10 +16,6 @@ nav
 {
 	width: 100%;
 	background: linear-gradient(90deg, #6441a5,#2a0545); 
-	/*background: linear-gradient(90deg, #0f0c29,#302b63,#24243e);*/
-	/*background: linear-gradient(90deg,#44A08D,#093637);*/
-	/*background: linear-gradient(90deg, #2C3E50 ,#4CA1AF);*/
-	/*background: linear-gradient(90deg, #232526 ,#414345);*/
 	position: fixed;
 	margin-top: -15px;
 	z-index: 100;
@@ -128,15 +124,6 @@ div#foto img
 	width: auto;
 	margin-top: -110px;
 }
-/*div.botao{
-
-	text-align: center;
-	background-color: rgba(41, 33, 33, 0.7);
-	padding: 20px;
-	border-radius: 25px;
-	
-} 
-*/
 
 div.botao button
 {
@@ -380,9 +367,6 @@ div#fotonomares img
 	height: 319px;
 	border-radius: 10px;
 	
-}
-section#quemsomos img.FotoQuemSomos{
-	/*filter: drop-shadow(5px 5px 10px #000);*/
 }
 
 section#quemsomos img.FotoQuemSomos:hover {
@@ -771,10 +755,7 @@ footer#rodape:hover a
 			display: block !important;
 		}
 
-		section#sobre h2
-		{
-			
-		}
+		
 		div#novos-habitos h3
 		{
 			margin-top: 50px;
