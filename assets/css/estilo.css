@@ -1,0 +1,935 @@
+div#corpodosite
+{
+	color: black;
+	background-color: rgb(255, 255, 255);
+	margin: 0px;   /* ordem da margem:  cima, direita, baixo e esquerda. */ 
+	overflow: hidden;
+	
+}
+.menu 
+{
+	padding: 0px;
+	margin: -10px;
+	
+}
+nav 
+{
+	width: 100%;
+	background: linear-gradient(90deg, #6441a5,#2a0545); 
+	/*background: linear-gradient(90deg, #0f0c29,#302b63,#24243e);*/
+	/*background: linear-gradient(90deg,#44A08D,#093637);*/
+	/*background: linear-gradient(90deg, #2C3E50 ,#4CA1AF);*/
+	/*background: linear-gradient(90deg, #232526 ,#414345);*/
+	position: fixed;
+	margin-top: -15px;
+	z-index: 100;
+}
+nav ul 
+{
+	list-style: none;
+}
+nav h2 {
+	
+	position: relative;
+	margin: 5px;
+	left: 40px;
+	top: 25px;
+	color: white;
+	font-family: Fruktur, sans-serif;
+	font-size: 32pt;
+	text-shadow: 2px 2px 2px #1f3039;
+}
+nav li a {
+	float: right;
+	position: relative;
+	right: 30px;
+	bottom: 10px;
+	color: white;
+	text-align: center;
+	margin: 2px 10px 2px 10px;
+	padding: 5px;
+	text-decoration: none;
+	font-family: Nunito, sans-serif;
+	text-transform: uppercase;
+	border-radius: 30px;
+}
+nav a:hover
+{
+	transition: 0.7s;
+	color: black;
+	font-weight: bold;
+	background-color: white;
+	text-decoration: none;
+	letter-spacing: 5px;
+	
+}
+#download
+{
+	
+	border-radius: 5px;
+	background-color: #2d98da;
+	transition: 0.5s;
+	
+}
+#download:hover
+{
+	color: #1e272e;
+	letter-spacing: 0;
+	
+}
+
+.conteudo-header {
+	
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: center;
+	
+}
+header#cabecalho 
+{	
+	
+	background: top center/cover url(../img/header2.jpg);
+	height: 700px;
+	display: flex;
+	justify-content: center;
+	
+}
+header#cabecalho h2{
+	font-family: Fruktur, sans-serif;
+	filter: drop-shadow(3px 1px 1px rgb(218, 206, 206));
+	color: rgb(34, 34, 65);
+	text-align: center;
+	font-size: 4.2em;
+	margin: 20px;
+	padding: 20px;
+	border-radius: 40px 34px;
+	background-color: rgba(219, 215, 215, 0.2);
+	
+}
+header#cabecalho a {
+	text-decoration: none;
+   text-transform: uppercase;
+   color: rgb(219, 215, 215);
+   font-family: Asap,sans-serif;
+   font-size: 15px;
+   padding: 0px;
+   
+}
+div#foto
+{
+	text-align: right;
+	
+}
+
+div#foto img
+{
+	height: auto;
+	width: auto;
+	margin-top: -110px;
+}
+/*div.botao{
+
+	text-align: center;
+	background-color: rgba(41, 33, 33, 0.7);
+	padding: 20px;
+	border-radius: 25px;
+	
+} 
+*/
+
+div.botao button
+{
+	background-color: transparent;
+	border: 1px solid rgb(219, 215, 215);;
+	padding: 9px;
+	border-radius: 30px;
+}
+
+div.botao button:hover
+{
+	
+	transition: 0.7s;
+	letter-spacing: 5px;
+	background-color: rgb(71, 32, 104);
+}
+.botao h6
+{
+	color: rgb(219, 215, 215);
+	font-family: Asap;
+	letter-spacing: 1px;
+}
+.tabela
+{
+	margin: 30px;
+	display: flex;
+	justify-content: center;
+
+}
+.tabela caption
+{
+	color: rgba(44, 44, 84,1.0);
+	font-family: Fruktur, sans-serif;
+	font-size: 1.4em;
+	margin: 0px;
+	caption-side: top;
+	text-align: center;
+	
+}
+table#tabelarequisitos
+{
+	
+	border-spacing: 0;
+	margin: 5px 20px 55px 25px;
+	border: 1px solid #222f3e;
+	
+
+}
+table#tabelarequisitos td {
+	
+	padding: 8px;
+	text-align: left;
+	vertical-align: middle;
+	
+}
+table#tabelarequisitos td.ColunaEsquerda{
+	background-color: #2c3e50;
+	color: white;
+	font-family: Nunito, sans-serif;
+	vertical-align: top;
+}
+
+table#tabelarequisitos td.ColunaDireita {
+	background-color: #ecf0f1;
+	font-family: Nunito, sans-serif;
+	color: black;
+}
+
+section#sobre {
+
+	height: auto;
+	width: 90%;
+	margin: 35px auto 20px;
+	position: relative;
+	
+}
+section#sobre h2{
+	color: rgba(44, 44, 84,1.0);
+	font-weight: bolder;
+	font-family: Fruktur, sans-serif;
+	font-size: 35pt;
+	text-align: center;
+	margin-bottom: 20px;
+
+}
+section#sobre p{
+	color: #222f3e;
+	margin: 10px;
+	font-family: Asap, sans-serif;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+div#novos-habitos
+{
+	height: 380px;
+	width: auto;
+	
+}
+div#novos-habitos h3
+{
+	font-family: Fruktur, sans-serif;
+	font-weight: bolder;
+	color: rgba(44, 44, 84,1.0);
+	margin: 45px;
+	text-align: center;
+}
+div#novos-habitos p
+{
+	color: #222f3e;
+	font-family: Asap, sans-serif;
+	font-size: 1.2em;
+	margin: 30px 70px 50px 70px;
+	text-align: center;
+}
+div#fotos-habitos
+{
+	display: flex;
+	justify-content: center;
+	gap: 35px;
+	margin-top: -100px;
+	margin-bottom: 100px;
+	
+}
+div#fotos-habitos img 
+{
+	border-radius: 5px;
+	
+	
+}
+div#fotos-habitos img:hover
+{
+	filter: grayscale(100%);
+	
+}
+figure figcaption h5
+{
+	font-family: Bebas Neue;
+	font-size: 35pt;
+	color: black;
+	font-weight: bolder;
+}
+figure#surf
+{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	
+}
+figure#surf figcaption
+{
+	display: flex;
+	justify-content: center;
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	margin: 10px;
+	
+}
+figure#surf:hover figcaption
+{	
+	opacity: 1;
+	color: white;
+}
+figure#basquete
+{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	
+}
+figure#basquete figcaption
+{
+	display: flex;
+	justify-content: center;
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	margin: 10px;
+	
+}
+figure#basquete:hover figcaption
+{	
+	opacity: 1;
+	color: white;
+}
+figure#skate
+{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	
+}
+figure#skate figcaption
+{
+	display: flex;
+	justify-content: center;
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	margin: 10px;
+	
+}
+figure#skate:hover figcaption
+{	
+	opacity: 1;
+	color: white;
+}
+section#quemsomos 
+{
+
+	height: 400px;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 50px;
+   
+}
+section#quemsomos h2
+{
+	color: rgba(44, 44, 84,1.0);
+	margin-bottom: 30px;
+	font-weight: bolder;
+	font-family: Fruktur, sans-serif;
+	font-size: 35pt;
+	text-align: center;
+	margin-top: -50px;
+
+}
+div#fotonomares
+{
+	text-align: left;
+   display: flex;
+   flex-direction: row;
+
+
+}
+div#fotonomares img
+{
+	margin-top: -5px;
+	width: 45%;
+	height: 319px;
+	border-radius: 10px;
+	
+}
+section#quemsomos img.FotoQuemSomos{
+	/*filter: drop-shadow(5px 5px 10px #000);*/
+}
+
+section#quemsomos img.FotoQuemSomos:hover {
+	-webkit-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	-moz-filter:grayscale(100%);
+	-ms-filter: grayscale(100%);
+	filter: grayscale(100%);
+
+}
+
+section#quemsomos p{		
+	
+	
+	color: #222f3e;
+	font-family: Asap;
+	text-align: left;
+	font-size: 14pt;
+	margin: 0px auto auto 30px;
+}
+section.faleconosco
+{
+	height: auto;
+}
+
+div#fale-conosco
+{	
+	
+	background-color: #D8E4EC;
+	width: 270px;
+	margin: 100px auto;
+	padding: 20px;
+	/*filter: drop-shadow(5px 5px 10px #000);*/
+	border: 1px solid rgba(44, 44, 84,1.0);;
+	border-radius: 15px;
+	
+}
+div#fale-conosco img
+{
+	margin: 0 auto;
+	display: flex;
+}
+
+div#fale-conosco h3
+{
+	text-align: center;
+	color: rgba(44, 44, 84,1.0);
+	font-family: Fruktur;
+	font-size: 21pt;
+	text-align: center;
+
+}
+div#fale-conosco label
+{
+	font-family: Asap;
+	color: rgba(44, 44, 84,1.0);
+	font-weight: bolder;
+	font-size: 13pt;
+	margin: 0;
+}
+div#fale-conosco input
+{
+	background-color: white;
+	border-radius: 10px;
+	border: none;
+	margin: 0px 0px 19px 0;
+	padding: 5px;
+}
+div#fale-conosco input:focus
+{
+	background-color: #e2e2e2;
+	
+}
+div#fale-conosco textarea
+{
+	border: none;
+	padding: 5px;
+	border-radius: 7px;
+	height: 120px;
+	margin-bottom: 20px;
+}
+div#fale-conosco textarea:focus
+{
+	background-color: #e2e2e2;
+}
+div#fale-conosco button
+{	
+	text-transform: uppercase;
+	padding: 5px;
+	font-family: asap;
+	font-size: 10pt;
+	color:rgba(44, 44, 84,1.0);
+	background-color: #fff;
+	cursor: pointer;
+	border-radius: 10px;
+	border: 1px solid rgba(44, 44, 84,1.0);
+	margin: 0 auto;
+	width: auto;
+}
+div#fale-conosco input:hover
+
+{
+	outline: none;
+	border: 1px solid rgba(44, 44, 84,1.0);
+	
+}
+div#fale-conosco input:focus
+{
+	outline: none;
+	border: 1px solid rgba(44, 44, 84,1.0);;
+	
+}
+div#fale-conosco textarea:hover, textarea:focus
+
+{
+	outline: none;
+	border: 1px solid #364954;
+}
+div#fale-conosco button:hover
+{
+	
+	letter-spacing: 5px;
+	transition: 0.5s;
+	width: auto;
+
+}
+
+.form
+{
+	display: flex;
+	flex-direction: column;
+	height: 330px;
+}
+
+div.contatos
+{
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+}
+.telegram, .zap
+{
+	height: 30px;
+}
+.zap:hover{
+	filter: grayscale(100%);
+}
+.telegram:hover{
+	filter: grayscale(100%);
+}
+footer#rodape 
+{
+	height: auto;
+	clear: both;					
+	border-top: 0.5px solid #606060;
+	/*background: linear-gradient(90deg, #0f0c29,#302b63,#24243e);*/
+	background: linear-gradient(90deg, #6441a5,#2a0545);
+	/*background:	linear-gradient(90deg,#44A08D,#093637);*/
+	padding: 10px;
+
+}
+footer#rodape p {
+	text-align: center;
+	color: white;
+	margin: 0px;
+	padding: 5px;
+	font-family: Nunito;
+	color: #dfe6e9;
+}
+footer#rodape a
+{
+	text-decoration: none;
+	transition: 1s;
+}
+
+footer#rodape:hover a 
+{
+	opacity: 1;
+	text-decoration: underline; 
+}
+@media screen and (max-width: 1280px)
+{
+	div#fotos-habitos img
+	{
+		height: 350px;
+		
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+
+	section#quemsomos 
+	{
+		height: auto;
+	}
+
+	div#fotonomares img
+	{
+		margin: 0;
+		filter: none;
+	}
+	section#quemsomos img.FotoQuemSomos:hover
+	{
+		filter: grayscale(0%);
+		filter: drop-shadow(0px 0px 12px black);
+	}
+	div#novos-habitos
+	{
+		height: auto;
+	}
+	div#novos-habitos p
+	{
+		margin-bottom: 40px;
+	}
+	div#fotos-habitos
+	{	
+	margin-left: 100px;
+	margin-right: 100px;
+	display: flex;
+	justify-content: space-evenly;
+	gap: 10px;
+	margin-top: 0;
+	margin-bottom: 100px;
+	}
+	div#fotos-habitos img 
+	{
+		margin: 0;
+		height: 310px;
+	}
+
+}
+
+@media screen and (max-width: 900px )
+{
+		section#sobre
+	{
+		height: auto;
+	}
+	section#quemsomos
+	{
+		height: auto;
+	}
+	
+	section#quemsomos p{
+		margin-bottom: 10px;
+	
+	}
+	header#cabecalho h2
+	{
+		font-size: 45pt;
+		padding: 15px;
+	}
+	div#fale-conosco
+	{
+		width: 43%;
+	}
+	div#fotos-habitos img 
+	{
+		height: 300px;
+	}
+	section#sobre p, section#quemsomos p, div#novos-habitos p 
+	{
+		text-align: center;
+		
+	}
+	nav 
+	{
+		width: 100%;
+		overflow: hidden;
+		position: fixed;
+		padding: 2px;
+		border: none;
+		
+		
+	}
+		
+		nav h2
+	{
+			padding: 5px;
+			color: white;
+			position: relative;
+			top: 35px;
+			padding-bottom: 5px;
+			margin-top: 15px;		
+	}
+		div.menu 
+	{
+			position: relative;
+			bottom: 30px;
+			padding: 0px;
+			height: 55px;
+	}
+		nav.menu
+	{
+		
+		text-align: center;
+		margin: 50px;
+	}
+
+	nav .menu-link
+	{
+		display: none;
+		width: 100%;
+		text-align: center;
+		
+	}
+
+	nav:hover .menu-link
+	{
+		display: block;
+		
+		
+	}
+	nav li a
+	{
+		width: 10%;
+		top: 15px;
+		margin-bottom: 18px;
+		float: none;	
+	}
+	nav a:hover
+	{
+		background-color: transparent;
+	}
+	
+	
+}
+
+@media screen and (max-width: 870px)
+{
+	section#sobre
+	{
+			height: auto;
+	}
+	div#fotonomares
+	{
+		display: inline-flex;
+    	flex-wrap: wrap;
+    	justify-content: center;
+	}
+	div#fotonomares img
+	{
+		width: 60%;
+		margin-top: -10px;
+		margin-bottom: 5px;
+	}
+
+	div#fale-conosco
+	{
+		margin-top: 20px;
+		width: 40%;
+	}
+	
+	section#quemsomos p {
+		margin-top: 25px;
+		margin-bottom: 20px;
+	}
+}
+
+
+@media screen and (max-width: 765px )
+	{
+		
+	
+		header#cabecalho h2
+		{
+			font-size: 40pt;
+		}
+
+		div.botao
+	 	{
+	 		text-align: center;
+	 	}
+		section#sobre
+		{
+			height: auto;
+		}
+	
+		.carousel-inner img
+		{
+			height: 450px;
+		}
+		.carousel-caption.d-md-block
+		{
+			display: block !important;
+		}
+
+		section#sobre h2
+		{
+			
+		}
+		div#novos-habitos h3
+		{
+			margin-top: 50px;
+			margin-bottom: 35px;
+		}
+		
+		div#novos-habitos p
+		{
+			margin-top: 0;
+			margin-bottom: 30px;
+			height: auto;
+		}
+		div#fotos-habitos
+		{	
+			height: auto;
+			display: grid;
+			gap: 30px;
+			margin-bottom: 0;
+		}
+		div#fotos-habitos img 
+		{
+			height: 450px;
+			width: 350px;
+			
+		}
+		div#fotonomares{
+			margin-top: 42px;
+		}
+		div#fotonomares img
+		{
+			width: 78%;
+			
+		}
+		section#quemsomos
+		{
+			height: auto;
+		}
+
+		section#quemsomos p {
+			padding: 0;
+			margin: 40px 20px 20px 20px;
+			display: inline-flex;
+			
+		}
+		section#quemsomos h2
+		{
+			margin: 0;
+		}
+		div#fale-conosco
+		{	
+			margin: 30px auto;
+			width: 50%;
+			
+		}
+}
+
+@media screen and (max-width: 620px )
+{
+	div#fotonomares img
+	{
+		margin-top: -8px;
+		width: 90%;
+	}
+	div#novos-habitos p 
+	{
+		margin: 47px
+	}
+}
+@media screen and (max-width: 540px )
+{
+	div#fale-conosco
+	{
+		width: 65%;
+	}
+	
+	div#fotos-habitos img 
+	{
+		height: 400px;
+		width: 280px;
+	}
+	header#cabecalho h2
+	{
+		font-size: 40pt;
+	}
+	section#quemsomos p 
+	{
+		font-size: 1.1em;
+	}
+	div#novos-habitos p 
+	{
+		font-size: 1.1em;
+	}
+	section#sobre p 
+	{
+		font-size: 1.1em;
+	}
+} 
+@media screen and (max-width: 436px)
+{
+	header#cabecalho h2
+	{
+		font-size: 32pt;
+	}
+	div#novos-habitos p 
+	{
+		margin: 39px
+	}
+	div#fale-conosco
+	{
+		width: 270px;
+	}
+	div.tabela
+	{
+		font-size: 0.9em;
+		margin: 0;
+	}
+	table#tabelarequisitos
+{
+	
+	border-spacing: 0;
+	margin: 5px 20px 55px 25px;
+	border: 1px solid #222f3e;
+	width: 95%;
+	margin: 15px 0px 40px 0px;
+
+}
+table#tabelarequisitos td {
+	
+	padding: 8px;
+	text-align: left;
+	vertical-align: middle;
+	
+}
+table#tabelarequisitos td.ColunaEsquerda{
+	background-color: #2c3e50;
+	color: white;
+	font-family: Nunito, sans-serif;
+	vertical-align: top;
+}
+
+table#tabelarequisitos td.ColunaDireita {
+	background-color: #ecf0f1;
+	font-family: Nunito, sans-serif;
+	color: black;
+}
+
+}
+@media screen and (max-width: 360px)
+{
+	div#fale-conosco
+	{
+		width: 270px;
+	}
+	header#cabecalho h2
+	{
+		font-size: 28pt;
+	}
+}
